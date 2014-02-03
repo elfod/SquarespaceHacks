@@ -11,6 +11,7 @@ That's a fair point and on reflection I agree, but what about the page title tex
 This hack allows you to inject a page title above the gallery images. See fig1 example picture accompanying this document.
 
 The process for installation is as follows:
+
 1. add the "Footer Code" to the Site Settings / Code Injection /Footer
 2. on each gallery
 	1. add the "Header Flag" to the gallery settings Advanced page in the Header field
