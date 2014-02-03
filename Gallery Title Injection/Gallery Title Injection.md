@@ -18,6 +18,7 @@ The process for installation is as follows:
 	2. add the "Description Content" to the gallery settings Basic page in the Description field
 
 The content added to the Description field need to be modified to suit your gallery page. In the code below this is the "London Street". If you want to add an additional line of text before the gallery instructions add the new text between paragraph tags as follows:
+
 	<p>this is your new shiny text that's full of awesome</p>
 
 ##How this works
