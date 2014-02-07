@@ -60,8 +60,8 @@ Quotes are fun, random quotes more so.
 		quote = res[0];
 		var attribution = res[1];
 		var bodyGrab = document.getElementById("content").innerHTML;
-		bodyGrab = bodyGrab.replace("eat me", quote);
-		bodyGrab = bodyGrab.replace("drink me", attribution);
+		bodyGrab = bodyGrab.replace("Etaoin", quote);
+		bodyGrab = bodyGrab.replace("Shrdlu", attribution);
 		document.getElementById("content").innerHTML = bodyGrab;
 	</script>
 
