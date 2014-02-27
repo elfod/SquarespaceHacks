@@ -32,6 +32,7 @@ Quotes are fun, random quotes more so.
 1. Sometime if the page loads slowly due to poor connection or any number of issues the reader may briefly see quote text "Etaoin Shrdlu" before it's replaced. Perhaps you could look at this as an opportunity to add some mystery to your pages...
 2.  If your keywords are added to other content they will get replaced as well, make sure you chose something unusual and be mindful when composing content.
 3. If you have more than one block quote configured on a page, they will all be replaced with the same randomly chosen quote. However, why would you have more than 1 random quote block per page?
+4. The design assumes certain page structures are in place and leverages those to make it work. If they're not present because the template is something new or it's your own custom design, it may not work.
 
 #Alternate Implementations
 
@@ -59,10 +60,14 @@ Quotes are fun, random quotes more so.
 		var res = quote.split("~");
 		quote = res[0];
 		var attribution = res[1];
-		var bodyGrab = document.getElementById("content").innerHTML;
+		var bodyGrab = document.getElementById("page").innerHTML;
 		bodyGrab = bodyGrab.replace("Etaoin", quote);
 		bodyGrab = bodyGrab.replace("Shrdlu", attribution);
-		document.getElementById("content").innerHTML = bodyGrab;
+		document.getElementById("page").innerHTML = bodyGrab;
 	</script>
 
+#Updates
+
+* Added 4th known issue regarding template/page structures
+* Changed Footer code from using content bloxk to page block and is works with more squarespace templates. If you know what this means you fix this issue yourself if you into it :)
 
