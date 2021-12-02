@@ -7,4 +7,4 @@ However, these hacks come with no guarantee, implied or otherwise as to their pe
 
 Each hack is in a separate folder with instructions, if you have any suggestions or bugs please contact me through my website or github, thanks.
 
-Gareth Harris (Elfod), Feb 2013, cannedelf.com Ó¿Õ¬
+Gareth Harris (Elfod), elfod.net Ó¿Õ¬
