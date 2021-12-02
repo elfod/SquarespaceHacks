@@ -15,7 +15,7 @@ Quotes are fun, random quotes more so.
 2. get list of quotes together and replace the list at the top of the footer code (below)
 3. add the footer code to the site wide footer in Code Injection section of Settings
 
-* *the key phrases can be changed to anything you choose such as "eat me" and "drink me" for instance*
+* *the key phrases can be changed to anything you choose such as "eat me" and "drink me" for instance*
 
 #How This Works
 
